@@ -1,0 +1,10 @@
+{% extends "base.html"%}
+{% block content %}
+<h1>Please Enter the name of the file that need to be spellchecked.</h1>
+<form action="{{url_for('report')}}">
+    <label for="fname" >Enter the file name</label>
+    <input id="fname" type="text" name="filename" >
+    <input id="submit" type="submit">
+</form>
+
+    {% endblock %}
