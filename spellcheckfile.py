@@ -7,7 +7,7 @@ def spellchecking(filename):
     i=0
     lci=[]
     wci=[]
-    wordi=[]
+    wordi = []
     with open(filename, "r") as f:
         for line in f:
             line = (line.translate(str.maketrans('', '', string.punctuation)))  # Remove punctuation from a string
