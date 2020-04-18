@@ -1,0 +1,22 @@
+
+
+h1{
+font-family: 'Comic Neue', cursive;
+color:#004d66;
+text-align:center;
+}
+body{
+background-color:white;
+margin-top:20px;
+}
+
+#form-container{
+margin-top:40px;
+margin-left:10px;
+text-align:center;
+}
+#error,#report{
+margin-top:40px;
+margin-left:10px;
+text-align:center;
+}

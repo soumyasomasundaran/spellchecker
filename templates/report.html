@@ -1,11 +1,12 @@
 {% extends "base.html"%}
 {% block content %}
+<div id="report">
 <b>You have made {{total}} Spelling mistakes</b>
 <br>
   {%for i in range(j|length)%}
-       {{j[i]}}, in line, {{k[i]}}, in position, {{l[i]}}
+    {{j[i]}}, in line, {{k[i]}}, in position, {{l[i]}}
         <br>
-
     {% endfor %}
+</div>
 
 {%endblock%}
